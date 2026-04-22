@@ -1,15 +1,15 @@
 # HelloAgentCSVfaq
 Creating a test agent for CSV processing and chat responses using streamlit.
 
-Chat With Your CSV
-A Streamlit and LangChain Tutorial
+**Chat With Your CSV
+A Streamlit and LangChain Tutorial**
 
 This document explains everything you need to run and understand the project.
 It covers setup, how the app works, and how to use it with your own CSV files.
 
-1. Project Overview
+**1. Project Overview
 This project is a simple web app that lets you talk to your CSV files in normal language.
-
+**
 You can
 
 Upload one or many CSV files through a Streamlit user interface
@@ -29,8 +29,8 @@ The goal is to keep the project simple and easy to understand
 There is no vector database and no advanced retrieval
 The model uses the LangChain data frame agent to inspect the data and reply from it
 
-2. Technology Stack
-The project uses the following main tools and libraries
+**2. Technology Stack
+The project uses the following main tools and libraries**
 
 Python
 Streamlit for the web app
@@ -49,8 +49,9 @@ langchain-openai
 langchain-experimental
 openai
 tabulate
-3. Folder Structure
-You can keep the project in a simple folder such as
+
+**3. Folder Structure
+You can keep the project in a simple folder such as**
 
 chat-with-csv/
   Hello_Agent_CSV_Faq.py
@@ -62,15 +63,15 @@ chat-with-csv/
   README.md
 You can add more CSV files to test other use cases
 
-4. Prerequisites
-Before you install and run the project, make sure you have
+**4. Prerequisites
+Before you install and run the project, make sure you have**
 
 Python 3.13 or later
 pip to install Python packages
 A valid OpenAI API key
 You do not need any database or extra storage
 
-5. Installation
+**5. Installation**
 Follow these steps in order
 
 5.1 Clone or create the project folder
