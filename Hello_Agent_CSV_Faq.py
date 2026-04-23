@@ -11,10 +11,6 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 #  PART 1: AUTOMATIC FILE DOWNLOADER
 # ==========================================
 
-streamlit_title = "Hello Agent: Multi-File CSV FAQ"
-st.title(streamlit_title)
-st.write("This app demonstrates how to create an AI agent that can read and answer questions from multiple CSV files. The agent will determine which file is relevant to the user's question and provide an answer based on the data in that file.")
-
 files_to_download = {
     "saas_docs.csv":         "https://drive.google.com/file/d/1RElOhN7bYsDAJUNQhYyqM7IzX-Xo6myq/view?usp=sharing",
     "credit_card_terms.csv": "https://drive.google.com/file/d/1_giivc_B0urOKpct0XY2yVZuxW3Eenuf/view?usp=sharing",
@@ -100,7 +96,6 @@ while True:
 
     if user_input.lower() in ["exit", "quit", "q"]:
         print("Goodbye!")
-        st.stop() 
         break
 
     if not user_input:
